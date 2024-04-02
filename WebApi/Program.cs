@@ -7,6 +7,8 @@ using Infrastructure.Configuration;
 using Infrastructure.Repository.Generics;
 using Infrastructure.Repository.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using WebApi.Models;
@@ -25,10 +27,22 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ContextBase>(options =>
             options.UseSqlServer(
                  builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ContextBase>();
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    options.User.RequireUniqueEmail = false;
+})
+    .AddEntityFrameworkStores<ContextBase>()
+    .AddDefaultTokenProviders();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(Path.GetTempPath()));
+
+/*builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ContextBase>();
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();*/
 
 //Interface
 builder.Services.AddSingleton(typeof(IGeneric<>), typeof(RepositoryGenerics<>));
@@ -80,11 +94,11 @@ builder.Services.AddSingleton(mapper);
 
 var app = builder.Build();
 
-var devClient = "http://localhost:4200";
+/* var devClient = "http://localhost:7124";
 app.UseCors(x => x
 .AllowAnyOrigin()
 .AllowAnyMethod()
-.AllowAnyHeader().WithOrigins(devClient));
+.AllowAnyHeader().WithOrigins(devClient)); */
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -101,3 +115,5 @@ app.UseAuthentication();
 app.MapControllers();
 
 app.Run();
+
+

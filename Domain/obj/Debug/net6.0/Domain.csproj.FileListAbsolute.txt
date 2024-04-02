@@ -1,0 +1,15 @@
+C:\GITHUB\API-DDD-TDD\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\GITHUB\API-DDD-TDD\Domain\bin\Debug\net6.0\Domain.dll
+C:\GITHUB\API-DDD-TDD\Domain\bin\Debug\net6.0\Domain.pdb
+C:\GITHUB\API-DDD-TDD\Domain\bin\Debug\net6.0\Entities.dll
+C:\GITHUB\API-DDD-TDD\Domain\bin\Debug\net6.0\Entities.pdb
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.csproj.CopyComplete
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.dll
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\Domain.pdb
+C:\GITHUB\API-DDD-TDD\Domain\obj\Debug\net6.0\ref\Domain.dll
