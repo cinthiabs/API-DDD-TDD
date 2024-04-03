@@ -23,7 +23,7 @@ namespace WebApi.Controllers
         }
 
         [AllowAnonymous]
-        [HttpPost("api/CreateTokenIdentity")]
+        [HttpPost("/api/CreateTokenIdentity")]
         public async Task<IActionResult> CreateTokenIdentity([FromBody] Login login)
         {
             if(string.IsNullOrWhiteSpace(login.email)|| string.IsNullOrWhiteSpace(login.senha))
@@ -39,15 +39,15 @@ namespace WebApi.Controllers
                 var IdUser = userCurrent.Id;
 
                 var token = new TokenJwtBuilder()
-                    .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678"))
+                    .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-12345678!@@@-453DEFSE77-8FGGHD"))
                     .AddSubject("Empresa")
-                    .AddIssuer("Teste.Securiry.Bearer")
-                    .AddAudience("Teste.Securiry.Bearer")
+                    .AddIssuer("Teste.Security.Bearer")
+                    .AddAudience("Teste.Security.Bearer")
                     .AddClaim("IdUser", IdUser)
                     .AddExpiry(10)
                     .Builder();
 
-                return Ok(token.value);
+                return Ok(token);
             }
             else
             {
@@ -56,9 +56,8 @@ namespace WebApi.Controllers
           
         }
 
-
         [AllowAnonymous]
-        [HttpPost("api/AddUserIdentity")]
+        [HttpPost("/api/AddUserIdentity")]
         public async Task<IActionResult> AddUserIdentity([FromBody] Login login)
         {
             if (string.IsNullOrWhiteSpace(login.email) || string.IsNullOrWhiteSpace(login.senha))

@@ -62,9 +62,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
 
-            ValidIssuer = "Teste.Securiry.Bearer",
-            ValidAudience = "Teste.Securiry.Bearer",
-            IssuerSigningKey = JwtSecurityKey.Create("Secret_Key-12345678")
+            ValidIssuer = "Teste.Security.Bearer",
+            ValidAudience = "Teste.Security.Bearer",
+            IssuerSigningKey = JwtSecurityKey.Create("Secret_Key-12345678!@@@-453DEFSE77-8FGGHD")
         };
         options.Events = new JwtBearerEvents
         {
