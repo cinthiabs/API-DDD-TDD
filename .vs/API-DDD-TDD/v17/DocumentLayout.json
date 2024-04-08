@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GITHUB\\API-DDD-TDD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|c:\\github\\api-ddd-tdd\\webapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|c:\\github\\api-ddd-tdd\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AB0C3EE-694B-4743-8B67-332BAE4295BA}|Infrastructure\\Infrastructure.csproj|c:\\github\\api-ddd-tdd\\infrastructure\\repository\\repositories\\repositorymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AB0C3EE-694B-4743-8B67-332BAE4295BA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\repositories\\repositorymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|c:\\github\\api-ddd-tdd\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|c:\\github\\api-ddd-tdd\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9861A28-2B6F-4DDA-B5EA-6D8B4662E87F}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B0A61C-5045-44E9-ABEF-B121B9ED7418}|Domain\\Domain.csproj|c:\\github\\api-ddd-tdd\\domain\\interfaces\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B0A61C-5045-44E9-ABEF-B121B9ED7418}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\MessageController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:13:13.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryMessage.cs",
+              "DocumentMoniker": "C:\\GITHUB\\API-DDD-TDD\\Infrastructure\\Repository\\Repositories\\RepositoryMessage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\Repositories\\RepositoryMessage.cs",
+              "ToolTip": "C:\\GITHUB\\API-DDD-TDD\\Infrastructure\\Repository\\Repositories\\RepositoryMessage.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\Repositories\\RepositoryMessage.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:04:33.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:04:21.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-04T10:07:53.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMessage.cs",
+              "DocumentMoniker": "C:\\GITHUB\\API-DDD-TDD\\Domain\\Interfaces\\IMessage.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IMessage.cs",
+              "ToolTip": "C:\\GITHUB\\API-DDD-TDD\\Domain\\Interfaces\\IMessage.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:04:16.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\GITHUB\\API-DDD-TDD\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAWwDgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T16:03:15.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

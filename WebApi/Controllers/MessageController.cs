@@ -31,7 +31,7 @@ namespace WebApi.Controllers
             return messageMap.Notitycoes;
         }
         [Authorize]
-        [HttpPost("/api/Update")]
+        [HttpPut("/api/Update")]
         public async Task<List<Notifies>> Update(MessageViewModel message)
         {
             var messageMap = _mapper.Map<Message>(message);
@@ -39,7 +39,7 @@ namespace WebApi.Controllers
             return messageMap.Notitycoes;
         }
         [Authorize]
-        [HttpPost("/api/Delete")]
+        [HttpDelete("/api/Delete")]
         public async Task<List<Notifies>> Delete(MessageViewModel message)
         {
             var messageMap = _mapper.Map<Message>(message);
@@ -48,7 +48,7 @@ namespace WebApi.Controllers
         }
 
         [Authorize]
-        [HttpPost("/api/GetEntityById")]
+        [HttpGet("/api/GetEntityById")]
         public async Task<MessageViewModel> GetEntityById(Message message)
         {
             message = await _message.GetEntityById(message.Id);
@@ -56,7 +56,7 @@ namespace WebApi.Controllers
             return messageMap;
         }
         [Authorize]
-        [HttpPost("/api/List")]
+        [HttpGet("/api/List")]
         public async Task<List<MessageViewModel>> List()
         {
             var mensagens = await _message.List();

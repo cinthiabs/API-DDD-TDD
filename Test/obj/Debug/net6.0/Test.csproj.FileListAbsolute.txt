@@ -105,9 +105,10 @@ C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.ed
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
-C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.csproj.CopyComplete
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.dll
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\refint\Test.dll
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.pdb
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.genruntimeconfig.cache
 C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\ref\Test.dll
+C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.sourcelink.json
+C:\GITHUB\API-DDD-TDD\Test\obj\Debug\net6.0\Test.csproj.Up2Date

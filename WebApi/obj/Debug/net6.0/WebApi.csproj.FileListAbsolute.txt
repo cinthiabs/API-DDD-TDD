@@ -83,9 +83,10 @@ C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\staticwebassets.pack.json
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\scopedcss\bundle\WebApi.styles.css
-C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\WebApi.csproj.CopyComplete
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\WebApi.dll
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\refint\WebApi.dll
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\WebApi.sourcelink.json
+C:\GITHUB\API-DDD-TDD\WebApi\obj\Debug\net6.0\WebApi.csproj.Up2Date
