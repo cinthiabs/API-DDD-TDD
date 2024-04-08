@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Domain.Interfaces;
+using Domain.Interfaces.Generics;
+using Domain.Interfaces.InterfaceServices;
 using Entities.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -14,11 +16,13 @@ namespace WebApi.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IMessage _message;
+        private readonly IServiceMessage _servicemessage;
 
-        public MessageController(IMapper mapper, IMessage message)
+        public MessageController(IMapper mapper, IMessage message, IServiceMessage service)
         {
             _message = message;
             _mapper = mapper;   
+            _servicemessage = service;
         }
 
         [Authorize]
@@ -27,7 +31,8 @@ namespace WebApi.Controllers
         {
             message.UserId = await ReturnIdUserLog();
             var messageMap = _mapper.Map<Message>(message);
-            await _message.Add(messageMap);
+          //  await _message.Add(messageMap);
+            await _servicemessage.Add(messageMap);
             return messageMap.Notitycoes;
         }
         [Authorize]
@@ -35,7 +40,8 @@ namespace WebApi.Controllers
         public async Task<List<Notifies>> Update(MessageViewModel message)
         {
             var messageMap = _mapper.Map<Message>(message);
-            await _message.Update(messageMap);
+            // await _message.Update(messageMap);
+            await _servicemessage.Update(messageMap);
             return messageMap.Notitycoes;
         }
         [Authorize]
